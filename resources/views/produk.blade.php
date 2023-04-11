@@ -2,7 +2,7 @@
 
 @section('title', 'Product')
 
-@section('meta-desc', 'Products')
+@section('meta-desc', 'Ini merupakan produk-produk terlaris sepanjang masa. Ada alat yang sering digunakan oleh masyarakat seperti smartphone, laptop, meja, kursi, dan lain sebegainya')
 
 @section('content')
 
