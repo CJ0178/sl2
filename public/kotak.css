@@ -17,9 +17,8 @@
 
 .product-status-ssr {
     background-color: red;
-    color: white;
 }
 
-    /* .card img{
-        width: 30vw;
-    } */
+.background{
+    background-color: rgb(236, 152, 152);
+}

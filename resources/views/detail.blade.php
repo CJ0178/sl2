@@ -5,12 +5,17 @@
 @section('meta-desc', $product['description'])
 
 @section('content')
-<div class="row p-5">
-    <div class="col-md-12 bg-warning">
-        <h1 class="mb-5">{{ $product['name'] }}</h1>
-        <p> <span class="fw-bold">Deskripsi:</span>  {{ $product['description'] }}</p>
-        <p> <span class="fw-bold">Status:</span> {{ $product['status'] }}</p>
-        <p> <span class="fw-bold">Harga:</span> {{ $product['price'] }}</p>
+<div class="container">
+    <div class="row p-3">
+        <div class="isi col-md-12">
+            <h1 class="mb-3 text-center">{{ $product['name'] }}</h1>
+            <img src="{{ asset('assets/' . $product['image']) }}" alt="{{ $product['name'] }}" class="w-50 mx-auto d-block mb-3">
+            <div class="background p-3">
+                <p> <span class="fw-bold mb-3">Deskripsi:</span>  {{ $product['description'] }}</p>
+                <p> <span class="fw-bold mb-3">Status:</span> {{ $product['status'] }}</p>
+                <p> <span class="fw-bold">Harga:</span> {{ $product['price'] }}</p>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
